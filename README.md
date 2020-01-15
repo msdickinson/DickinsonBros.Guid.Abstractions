@@ -2,4 +2,4 @@
 
 Abstractions For DickinsonBros.Guid 
 
-https://github.com/msdickinson/
+https://github.com/msdickinson/DickinsonBros.Guid
