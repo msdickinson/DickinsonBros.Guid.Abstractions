@@ -5,6 +5,7 @@ trigger:
     paths:
           exclude:
           - README.md
+          - Scripts/*
 pr: none
 
 pool:
