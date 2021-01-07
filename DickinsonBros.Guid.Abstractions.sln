@@ -3,16 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Guid.Abstractions", "DickinsonBros.Guid.Abstractions\DickinsonBros.Guid.Abstractions.csproj", "{D196D6CD-D805-482E-A4D7-FDA0DA3F914C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{8B9F7773-5A62-44F3-9EC0-C02C7C572CA6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Interface", "0 Interface", "{F9BB34F6-5056-4C9F-86B1-2B5718E971FB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{2BE97A5A-18E0-4302-AA12-0972A5BBB355}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{3B8E90F0-D980-4334-A941-1375AB70C1B1}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		Tests\DickinsonBros.Guid.Abstractions.runsettings = Tests\DickinsonBros.Guid.Abstractions.runsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{938340D7-E35B-4EB2-8FD5-D81B84220E29}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Prerelease.DickinsonBros.Guid.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Guid.Abstractions.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Guid.Abstractions", "Source\DickinsonBros.Guid.Abstractions\DickinsonBros.Guid.Abstractions.csproj", "{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Guid.Abstractions.Tests", "Tests\DickinsonBros.Guid.Abstractions.Tests\DickinsonBros.Guid.Abstractions.Tests.csproj", "{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,16 +27,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D196D6CD-D805-482E-A4D7-FDA0DA3F914C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D196D6CD-D805-482E-A4D7-FDA0DA3F914C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D196D6CD-D805-482E-A4D7-FDA0DA3F914C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D196D6CD-D805-482E-A4D7-FDA0DA3F914C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D196D6CD-D805-482E-A4D7-FDA0DA3F914C} = {F9BB34F6-5056-4C9F-86B1-2B5718E971FB}
+		{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4} = {8B9F7773-5A62-44F3-9EC0-C02C7C572CA6}
+		{75AA4F62-FC22-48D4-BCCF-E956B456C1FC} = {3B8E90F0-D980-4334-A941-1375AB70C1B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C2F4C68-E1B1-4C4D-8238-D698CB604636}
