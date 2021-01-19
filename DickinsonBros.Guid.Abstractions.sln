@@ -7,19 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{8B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{3B8E90F0-D980-4334-A941-1375AB70C1B1}"
 	ProjectSection(SolutionItems) = preProject
-		Tests\DickinsonBros.Guid.Abstractions.runsettings = Tests\DickinsonBros.Guid.Abstractions.runsettings
+		Tests\CodeCoverage.runsettings = Tests\CodeCoverage.runsettings
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{938340D7-E35B-4EB2-8FD5-D81B84220E29}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\Prerelease.DickinsonBros.Guid.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Guid.Abstractions.ps1
+		Scripts\PackagePrerelease.ps1 = Scripts\PackagePrerelease.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Guid.Abstractions", "Source\DickinsonBros.Guid.Abstractions\DickinsonBros.Guid.Abstractions.csproj", "{21D9A9E6-93BE-4571-AC6F-7441A7E8E9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Guid.Abstractions.Tests", "Tests\DickinsonBros.Guid.Abstractions.Tests\DickinsonBros.Guid.Abstractions.Tests.csproj", "{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Guid.Abstractions.Tests", "Tests\DickinsonBros.Guid.Abstractions.Tests\DickinsonBros.Guid.Abstractions.Tests.csproj", "{75AA4F62-FC22-48D4-BCCF-E956B456C1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
